@@ -1,13 +1,14 @@
 
 
 
+using Application;
 using Infrastructure;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDependancies(builder.Configuration);
+builder.Services.AddDependanciesFromInfra(builder.Configuration).AddDependanciesFromApplication(builder.Configuration);
 
 builder.Services.AddControllers();
 

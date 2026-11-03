@@ -30,12 +30,13 @@ namespace Infrastructure
 {
     public static class InfraDependancyInjection
     {
-        public static IServiceCollection AddDependancies(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection AddDependanciesFromInfra(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<ApplicationDbContext>(o =>
             {
                 o.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
             });
+            services.AddScoped<IApplicationDbContext, ApplicationDbContext>();
             services.AddScoped<IEmailSender, EmailService>();
             services.AddAuthConfig(configuration).AddFluentValidationConfig().AddMapsterConfig();
             services.AddScoped<IEmailBodyBuilder, EmailBodyBuilder>();

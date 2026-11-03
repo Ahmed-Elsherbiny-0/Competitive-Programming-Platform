@@ -59,6 +59,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[14.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -166,6 +170,10 @@
             "Mapster.DependencyInjection": {
               "target": "Package",
               "version": "[10.0.13, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[14.2.0, )"
             },
             "Microsoft.AspNetCore.Http": {
               "target": "Package",

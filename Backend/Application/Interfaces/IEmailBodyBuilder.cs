@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Helper.Email
+namespace Application.Interfaces
 {
     public interface IEmailBodyBuilder
     {

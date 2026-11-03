@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "b8wc+FgAGMs=",
+  "dgSpecHash": "l6NHNC1Y9tI=",
   "success": true,
   "projectFilePath": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,8 @@
     "C:\\Users\\ahmed\\.nuget\\packages\\mapster\\10.0.13\\mapster.10.0.13.nupkg.sha512",
     "C:\\Users\\ahmed\\.nuget\\packages\\mapster.core\\10.0.13\\mapster.core.10.0.13.nupkg.sha512",
     "C:\\Users\\ahmed\\.nuget\\packages\\mapster.dependencyinjection\\10.0.13\\mapster.dependencyinjection.10.0.13.nupkg.sha512",
+    "C:\\Users\\ahmed\\.nuget\\packages\\mediatr\\14.2.0\\mediatr.14.2.0.nupkg.sha512",
+    "C:\\Users\\ahmed\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\ahmed\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.3.11\\microsoft.aspnetcore.authentication.2.3.11.nupkg.sha512",
     "C:\\Users\\ahmed\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.3.9\\microsoft.aspnetcore.authentication.abstractions.2.3.9.nupkg.sha512",
     "C:\\Users\\ahmed\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.3.12\\microsoft.aspnetcore.authentication.cookies.2.3.12.nupkg.sha512",

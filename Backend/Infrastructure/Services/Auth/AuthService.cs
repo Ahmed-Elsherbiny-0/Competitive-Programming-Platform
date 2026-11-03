@@ -1,4 +1,5 @@
-﻿using Application.Comman;
+﻿using Application.Auth.Commands.CreateRegister;
+using Application.Comman;
 using Application.Dtos;
 using Application.Dtos.Auth;
 using Application.Interfaces;
@@ -9,6 +10,7 @@ using Domain.Entities;
 using Infrastructure.Data;
 using Infrastructure.Helper.Email;
 using Mapster;
+using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
@@ -31,7 +33,8 @@ namespace Infrastructure.Services.Auth
         IHttpContextAccessor _httpContextAccessor,
         IEmailSender _emailSender,
         IEmailBodyBuilder _emailBodyBuilder,
-        IPhotoService _photoService) : IAuthService
+        IPhotoService _photoService,
+        IMediator _mediator) : IAuthService
     {
 
 
@@ -79,59 +82,61 @@ namespace Infrastructure.Services.Auth
 
         public async Task<Result> Register(RegisterRequestDto request, CancellationToken cancellationToken = default)
         {
-            var userIsFound = await _signInManager.UserManager.FindByEmailAsync(request.Email);
-            if (userIsFound != null)
-            {
-                return Result.Failure(UserErrors.DuplicatedEmail);
-            }
+            //var userIsFound = await _signInManager.UserManager.FindByEmailAsync(request.Email);
+            //if (userIsFound != null)
+            //{
+            //    return Result.Failure(UserErrors.DuplicatedEmail);
+            //}
 
-            if (request.Photo == null)
-            {
-                request = request with { Photo = new PhotoDto(PhotoConstant.publicId, PhotoConstant.url) };
-            }
+            //if (request.Photo == null)
+            //{
+            //    request = request with { Photo = new PhotoDto(PhotoConstant.publicId, PhotoConstant.url) };
+            //}
 
-            var user = request.Adapt<ApplicationUser>();
-            using var transaction = await _context.Database.BeginTransactionAsync(cancellationToken);
+            //var user = request.Adapt<ApplicationUser>();
+            //using var transaction = await _context.Database.BeginTransactionAsync(cancellationToken);
 
-            try
-            {
-                var result = await _signInManager.UserManager.CreateAsync(user, request.Password);
+            //try
+            //{
+            //    var result = await _signInManager.UserManager.CreateAsync(user, request.Password);
 
- 
-                if (!result.Succeeded)
-                {
-                    var identityError = result.Errors.First();
-                    await transaction.RollbackAsync(cancellationToken);
-                    return Result.Failure(new Error(identityError.Code, identityError.Description, StatusCodes.Status400BadRequest));
-                }
 
-                var photoResult = await _photoService.AddPhotoToUser(request.Photo!.Adapt<Photo>(), user.Email);
-                if (!photoResult.IsSuccess)
-                {
-                    await transaction.RollbackAsync(cancellationToken);
-  
-                    await _signInManager.UserManager.DeleteAsync(user);
-                    return Result.Failure<PhotoDto>(photoResult.Error); 
-                }
-                await _context.SaveChangesAsync(cancellationToken);
+            //    if (!result.Succeeded)
+            //    {
+            //        var identityError = result.Errors.First();
+            //        await transaction.RollbackAsync(cancellationToken);
+            //        return Result.Failure(new Error(identityError.Code, identityError.Description, StatusCodes.Status400BadRequest));
+            //    }
 
-                var code = await _signInManager.UserManager.GenerateEmailConfirmationTokenAsync(user);
-                code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
+            //    var photoResult = await _photoService.AddPhotoToUser(request.Photo!.Adapt<Photo>(), user.Email);
+            //    if (!photoResult.IsSuccess)
+            //    {
+            //        await transaction.RollbackAsync(cancellationToken);
 
-                _logger.LogInformation("Confirmation code: {code}", code);
+            //        await _signInManager.UserManager.DeleteAsync(user);
+            //        return Result.Failure<PhotoDto>(photoResult.Error); 
+            //    }
+            //    await _context.SaveChangesAsync(cancellationToken);
 
-                await SendConfirmationEmail(user, code);
+            //    var code = await _signInManager.UserManager.GenerateEmailConfirmationTokenAsync(user);
+            //    code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
 
-                await transaction.CommitAsync(cancellationToken);
+            //    _logger.LogInformation("Confirmation code: {code}", code);
 
-                return Result.Success();
-            }
-            catch
-            {
-               
-                await transaction.RollbackAsync(cancellationToken);
-                throw;
-            }
+            //    await SendConfirmationEmail(user, code);
+
+            //    await transaction.CommitAsync(cancellationToken);
+
+            //    return Result.Success();
+            //}
+            //catch
+            //{
+
+            //    await transaction.RollbackAsync(cancellationToken);
+            //    throw;
+            //}
+          var res=  await _mediator.Send(new CreateRegisterCommand(request));
+            return res;
         }
 
 
