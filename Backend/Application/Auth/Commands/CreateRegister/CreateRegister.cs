@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
+using Microsoft.IdentityModel.Tokens.Experimental;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,18 +23,15 @@ namespace Application.Auth.Commands.CreateRegister
 {
     public record CreateRegisterCommand(RegisterRequestDto request) : IRequest<Result>;
     public class CreateRegisterCommandHandler(
-        SignInManager<ApplicationUser> _signInManager,
         IApplicationDbContext _context,
-        IEmailSender _emailSender,
-        IPhotoService _photoService,
-          IHttpContextAccessor _httpContextAccessor,
-            IEmailBodyBuilder _emailBodyBuilder,
-        ISender _sender) : IRequestHandler<CreateRegisterCommand, Result>
+         IIdentityService _identityService,
+         IPhotoService _photoService, 
+        ISender _sender,IAuthService _authService) : IRequestHandler<CreateRegisterCommand, Result>
     {
         public async Task<Result> Handle(CreateRegisterCommand command, CancellationToken cancellationToken)
         {
             var request = command.request;
-            var userIsFound = await _signInManager.UserManager.FindByEmailAsync(request.Email);
+            var userIsFound = await _identityService.FindByEmailAsync(request.Email);
             if (userIsFound != null)
             {
                 return Result.Failure(UserErrors.DuplicatedEmail);
@@ -49,8 +47,7 @@ namespace Application.Auth.Commands.CreateRegister
 
             try
             {
-                var result = await _signInManager.UserManager.CreateAsync(user, request.Password);
-
+                var result = await _identityService.CreateUserAsync(user, request.Password);
 
                 if (!result.Succeeded)
                 {
@@ -64,21 +61,19 @@ namespace Application.Auth.Commands.CreateRegister
                 {
                     await transaction.RollbackAsync(cancellationToken);
 
-                    await _signInManager.UserManager.DeleteAsync(user);
+                    await _identityService.DeleteUserAsync(user);
                     return Result.Failure<PhotoDto>(photoResult.Error);
                 }
                 await _context.SaveChangesAsync(cancellationToken);
 
-                var code = await _signInManager.UserManager.GenerateEmailConfirmationTokenAsync(user);
+                var code = await _identityService.GenerateEmailConfirmationTokenAsync(user);
                 code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
 
                 //_logger.LogInformation("Confirmation code: {code}", code);
 
                 //await SendConfirmationEmail(user, code);
-                await _sender.Send(
-             new SendConfirmationEmailCommand(user, code),
-             cancellationToken);
-
+            
+         await    _authService.SendConfirmationEmail(user,code);
                 await transaction.CommitAsync(cancellationToken);
 
                 return Result.Success();

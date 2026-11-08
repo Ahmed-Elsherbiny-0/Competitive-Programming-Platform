@@ -2,6 +2,7 @@
 
 
 using Application;
+using Hangfire;
 using Infrastructure;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
@@ -29,6 +30,7 @@ catch (Exception ex)
 }
 
 // Configure the HTTP request pipeline.
+app.UseHangfireDashboard("/jobs");
 
 app.UseHttpsRedirection();
 

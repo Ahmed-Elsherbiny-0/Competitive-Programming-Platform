@@ -8,14 +8,19 @@
 
   <ItemGroup>
     <None Remove="Services\Email\Templates\EmailConfirmation.html" />
+    <None Remove="Services\Email\Templates\ForgetPassword.html" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Services\Email\Templates\EmailConfirmation.html" />
+    <EmbeddedResource Include="Services\Email\Templates\ForgetPassword.html" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="CloudinaryDotNet" Version="1.29.3" />
+    <PackageReference Include="Hangfire.AspNetCore" Version="1.8.25" />
+    <PackageReference Include="Hangfire.Core" Version="1.8.25" />
+    <PackageReference Include="Hangfire.SqlServer" Version="1.8.25" />
     <PackageReference Include="MailKit" Version="4.18.1" />
     <PackageReference Include="Mapster" Version="10.0.13" />
     <PackageReference Include="Mapster.DependencyInjection" Version="10.0.13" />

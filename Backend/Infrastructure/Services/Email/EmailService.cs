@@ -38,10 +38,10 @@ namespace Infrastructure.Services.Email
 
             _logger.LogInformation("Sending email to {email}", email);
 
-            smtp.Connect(_mailSettings.Host, _mailSettings.Port, SecureSocketOptions.StartTls);
-            smtp.Authenticate(_mailSettings.Mail, _mailSettings.Password);
+          await   smtp.ConnectAsync(_mailSettings.Host, _mailSettings.Port, SecureSocketOptions.StartTls);
+            await smtp.AuthenticateAsync(_mailSettings.Mail, _mailSettings.Password);
             await smtp.SendAsync(message);
-            smtp.Disconnect(true);
+           await smtp.DisconnectAsync(true);
         }
     }
 }

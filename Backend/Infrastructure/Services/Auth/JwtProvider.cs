@@ -57,8 +57,11 @@ namespace Infrastructure.Services.Auth
                 {
                     IssuerSigningKey = symmetricSecurityKey,
                     ValidateIssuerSigningKey = true,
-                    ValidateIssuer = false,
-                    ValidateAudience = false,
+                    ValidateIssuer = true,
+                    ValidIssuer = _options.Issuer,
+                    ValidateAudience = true,
+                    ValidAudience = _options.Audience,
+
                     ClockSkew = TimeSpan.Zero
                 }, out SecurityToken validatedToken);
 

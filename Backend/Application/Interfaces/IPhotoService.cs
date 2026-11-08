@@ -18,6 +18,6 @@ namespace Application.Interfaces
         public Task<Result<PhotoDto>> GetPhoto(string publicId);
 
 
-        public Task<Result<PhotoDto>> AddPhotoToUser(Photo photo, string username);
+        public Task<Result<PhotoDto>> AddPhotoToUser(Photo photo, string email);
     }
 }

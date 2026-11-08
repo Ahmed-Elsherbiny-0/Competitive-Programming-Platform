@@ -163,6 +163,14 @@
               "target": "Package",
               "version": "[12.1.1, )"
             },
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.8.25, )"
+            },
+            "Hangfire.SqlServer": {
+              "target": "Package",
+              "version": "[1.8.25, )"
+            },
             "Mapster": {
               "target": "Package",
               "version": "[10.0.13, )"
@@ -331,6 +339,18 @@
             "CloudinaryDotNet": {
               "target": "Package",
               "version": "[1.29.3, )"
+            },
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.8.25, )"
+            },
+            "Hangfire.Core": {
+              "target": "Package",
+              "version": "[1.8.25, )"
+            },
+            "Hangfire.SqlServer": {
+              "target": "Package",
+              "version": "[1.8.25, )"
             },
             "MailKit": {
               "target": "Package",

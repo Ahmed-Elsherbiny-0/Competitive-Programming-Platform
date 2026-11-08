@@ -63,6 +63,7 @@ namespace Infrastructure
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddSingleton<IJwtProvider, JwtProvider>();
             services.AddScoped<IAuthService, AuthService>();
+            services.AddScoped<IIdentityService, IdentityService>();    
 
 
             services.AddAuthentication(options =>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "l6NHNC1Y9tI=",
+  "dgSpecHash": "MxCrINqdrQw=",
   "success": true,
   "projectFilePath": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,10 @@
     "C:\\Users\\ahmed\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
     "C:\\Users\\ahmed\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.1\\fluentvalidation.aspnetcore.11.3.1.nupkg.sha512",
     "C:\\Users\\ahmed\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
+    "C:\\Users\\ahmed\\.nuget\\packages\\hangfire.aspnetcore\\1.8.25\\hangfire.aspnetcore.1.8.25.nupkg.sha512",
+    "C:\\Users\\ahmed\\.nuget\\packages\\hangfire.core\\1.8.25\\hangfire.core.1.8.25.nupkg.sha512",
+    "C:\\Users\\ahmed\\.nuget\\packages\\hangfire.netcore\\1.8.25\\hangfire.netcore.1.8.25.nupkg.sha512",
+    "C:\\Users\\ahmed\\.nuget\\packages\\hangfire.sqlserver\\1.8.25\\hangfire.sqlserver.1.8.25.nupkg.sha512",
     "C:\\Users\\ahmed\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ahmed\\.nuget\\packages\\mailkit\\4.18.1\\mailkit.4.18.1.nupkg.sha512",
     "C:\\Users\\ahmed\\.nuget\\packages\\mapster\\10.0.13\\mapster.10.0.13.nupkg.sha512",

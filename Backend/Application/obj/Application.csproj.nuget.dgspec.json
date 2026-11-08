@@ -68,6 +68,14 @@
               "target": "Package",
               "version": "[12.1.1, )"
             },
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.8.25, )"
+            },
+            "Hangfire.SqlServer": {
+              "target": "Package",
+              "version": "[1.8.25, )"
+            },
             "Mapster": {
               "target": "Package",
               "version": "[10.0.13, )"

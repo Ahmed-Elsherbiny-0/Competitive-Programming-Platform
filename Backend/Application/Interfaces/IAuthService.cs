@@ -1,5 +1,6 @@
 ﻿using Application.Dtos.Auth;
 using Domain.Comman;
+using Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,5 +20,9 @@ namespace Application.Interfaces
         Task<Result> ResendConfirmationEmailAsync(ResendConfirmationEmailRequestDto request);
         Task<Result> SendResetPasswordCodeAsync(string email);
         Task<Result> ResetPasswordAsync(ResetPasswordRequestDto request);
+        public string GenerateRefreshToken();
+        public Task SendConfirmationEmail(ApplicationUser user, string code);
+        public Task SendResetPasswordEmail(ApplicationUser user, string code);
+
     }
 }
