@@ -15,6 +15,7 @@ namespace Infrastructure.Data.EntitiesConfigurations
         {
             builder.HasOne(x => x.Question).WithMany().HasForeignKey(x => x.QuestionId).OnDelete(DeleteBehavior.NoAction); ;
             builder.HasOne(x => x.Answer).WithMany().HasForeignKey(x => x.AnswerId);
+            builder.HasIndex(va => new { va.VoteId, va.QuestionId }).IsUnique();
         }
     }
 }

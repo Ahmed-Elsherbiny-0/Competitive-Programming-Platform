@@ -1,0 +1,19 @@
+﻿using Domain.Entities;
+using Domain.Specifications;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Application.Tests.Specification
+{
+    public class TestSpecification:BaseSpecifications<Test>
+    {
+        public TestSpecification(int id ):base(x=>x.Id==id)
+        {
+            AddInclude(x => x.Questions);
+            AddThenInclude("Questions.Answers");
+        }
+    }
+}

@@ -2,6 +2,7 @@
 using Domain.Interfaces;
 using Mapster;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Identity.Client;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,6 +22,11 @@ namespace Infrastructure.Data
         {
             _context.Set<T>().Remove(entity);
         }
+        public void DeleteItemById(int id)
+        {
+         var item=   _context.Set<T>().Find(id);
+            DeleteItem(item);
+        }
 
         public async Task<IReadOnlyList<T>> ListAllAsync()
         {
@@ -30,6 +36,11 @@ namespace Infrastructure.Data
         public void UpdateItem(T entity)
         {
             _context.Set<T>().Update(entity);
+        }
+        public async Task<T> GetItemById(int id)
+        {
+            var res=await _context.Set<T>().FindAsync(id);
+            return res;
         }
         public async Task<bool> SaveChangesAsync()
         {

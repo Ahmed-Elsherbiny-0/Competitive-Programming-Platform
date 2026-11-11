@@ -10,8 +10,10 @@ namespace Domain.Interfaces
     {
         public Task<IReadOnlyList<T>> ListAllAsync();
         public Task AddItem(T entity);
+        public Task<T> GetItemById(int id);
 
         public void DeleteItem(T entity);
+        public void DeleteItemById(int id);
         public void UpdateItem(T entity);
         public Task<bool> SaveChangesAsync();
 

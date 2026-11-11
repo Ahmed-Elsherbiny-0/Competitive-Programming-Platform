@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Comman
+namespace Application.Comman.Errors
 {
     public static  class UserErrors
     {

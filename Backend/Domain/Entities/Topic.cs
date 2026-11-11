@@ -12,6 +12,7 @@ namespace Domain.Entities
         public string Title  { get; set; }
         public string Content { get; set; }
         public IList<Test>? Tests { get; set; } = [];
-
+        public List<Problem> Problems { get; set; } = [];         
+        public List<PlanTopic> PlanTopics { get; set; } = [];
     }
 }

@@ -385,7 +385,6 @@ C:\Users\ahmed\OneDrive\Desktop\Cp Platform\Backend\Api\obj\Debug\net9.0\refint\
 C:\Users\ahmed\OneDrive\Desktop\Cp Platform\Backend\Api\obj\Debug\net9.0\Api.pdb
 C:\Users\ahmed\OneDrive\Desktop\Cp Platform\Backend\Api\obj\Debug\net9.0\Api.genruntimeconfig.cache
 C:\Users\ahmed\OneDrive\Desktop\Cp Platform\Backend\Api\obj\Debug\net9.0\ref\Api.dll
-C:\Users\ahmed\OneDrive\Desktop\Cp Platform\Backend\Api\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\ahmed\OneDrive\Desktop\Cp Platform\Backend\Api\bin\Debug\net9.0\MediatR.dll
 C:\Users\ahmed\OneDrive\Desktop\Cp Platform\Backend\Api\bin\Debug\net9.0\MediatR.Contracts.dll
 C:\Users\ahmed\OneDrive\Desktop\Cp Platform\Backend\Api\bin\Debug\net9.0\Hangfire.AspNetCore.dll
@@ -407,3 +406,4 @@ C:\Users\ahmed\OneDrive\Desktop\Cp Platform\Backend\Api\bin\Debug\net9.0\sv\Hang
 C:\Users\ahmed\OneDrive\Desktop\Cp Platform\Backend\Api\bin\Debug\net9.0\tr-TR\Hangfire.Core.resources.dll
 C:\Users\ahmed\OneDrive\Desktop\Cp Platform\Backend\Api\bin\Debug\net9.0\zh-TW\Hangfire.Core.resources.dll
 C:\Users\ahmed\OneDrive\Desktop\Cp Platform\Backend\Api\bin\Debug\net9.0\zh\Hangfire.Core.resources.dll
+C:\Users\ahmed\OneDrive\Desktop\Cp Platform\Backend\Api\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

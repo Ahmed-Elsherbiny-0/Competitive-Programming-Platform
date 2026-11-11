@@ -1,4 +1,4 @@
-﻿using Application.Comman;
+﻿using Application.Comman.Errors;
 using Application.Dtos.Auth;
 using Application.Interfaces;
 using Domain.Comman;

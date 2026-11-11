@@ -1,4 +1,4 @@
-﻿using Application.Comman;
+﻿using Application.Comman.Errors;
 using Application.Interfaces;
 using Domain.Comman;
 using MediatR;

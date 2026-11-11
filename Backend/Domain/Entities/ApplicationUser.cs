@@ -15,6 +15,10 @@ namespace Domain.Entities
         public IList<RefreshToken> RefreshTokens { get; set; } =[];
         public IList<Vote> Votes { get; set; } =[];
         public Photo Photo { get; set; }
+        public IList<Submission> Submissions { get; set; } =[];
+
+        public int? PlanId { get; set; }       
+        public Plan? Plan { get; set; }
 
     }
 }
