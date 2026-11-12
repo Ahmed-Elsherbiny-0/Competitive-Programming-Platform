@@ -1,5 +1,6 @@
 ﻿using Application.Dtos.Auth.AuthValidators;
 using Application.Interfaces;
+using Application.Judging.Interfaces;
 using Application.Mapping;
 using Domain.Entities;
 using Domain.Interfaces;
@@ -11,6 +12,8 @@ using Infrastructure.Options;
 using Infrastructure.Services;
 using Infrastructure.Services.Auth;
 using Infrastructure.Services.Email;
+using Infrastructure.Services.Judge0;
+using Infrastructure.Services.Judge0.JudgeWorker;
 using Mapster;
 using MapsterMapper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -44,7 +47,12 @@ namespace Infrastructure
 
             services.Configure<EmailOptions>(configuration.GetSection("MailSettings"));
             services.Configure<CloudinarySettings>(configuration.GetSection("CloudinarySetting"));
-
+            services.AddHttpClient<IJudgeClient, Judge0Client>(c =>
+            {
+                c.BaseAddress = new Uri(configuration["Judge0:BaseUrl"]!);
+                c.Timeout = TimeSpan.FromSeconds(60);
+            });
+            services.AddHostedService<JudgeWorkerService>();
             return services;
         }
 

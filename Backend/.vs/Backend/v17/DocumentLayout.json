@@ -3,8 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{353AED4D-F089-45C6-869D-8452B085AF61}|Infrastructure\\Infrastructure.csproj|c:\\users\\ahmed\\onedrive\\desktop\\cp platform\\backend\\infrastructure\\services\\judge0\\judge0client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{353AED4D-F089-45C6-869D-8452B085AF61}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\judge0\\judge0client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{353AED4D-F089-45C6-869D-8452B085AF61}|Infrastructure\\Infrastructure.csproj|c:\\users\\ahmed\\onedrive\\desktop\\cp platform\\backend\\infrastructure\\services\\judge0\\judgeworker\\judgeworkerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{353AED4D-F089-45C6-869D-8452B085AF61}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\judge0\\judgeworker\\judgeworkerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488648F8-698C-45B0-B6B9-9A5615635C0C}|Application\\Application.csproj|c:\\users\\ahmed\\onedrive\\desktop\\cp platform\\backend\\application\\judging\\dtos\\judgerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488648F8-698C-45B0-B6B9-9A5615635C0C}|Application\\Application.csproj|solutionrelative:application\\judging\\dtos\\judgerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE411A7D-1906-43B7-93CF-C5DD6FA68059}|Domain\\Domain.csproj|c:\\users\\ahmed\\onedrive\\desktop\\cp platform\\backend\\domain\\enums\\verdict.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE411A7D-1906-43B7-93CF-C5DD6FA68059}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\verdict.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{06EF1FC1-D848-41AC-BF5D-F517FA173A98}|Api\\Api.csproj|c:\\users\\ahmed\\onedrive\\desktop\\cp platform\\backend\\api\\controllers\\submissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06EF1FC1-D848-41AC-BF5D-F517FA173A98}|Api\\Api.csproj|solutionrelative:api\\controllers\\submissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488648F8-698C-45B0-B6B9-9A5615635C0C}|Application\\Application.csproj|c:\\users\\ahmed\\onedrive\\desktop\\cp platform\\backend\\application\\judging\\dtos\\judgeresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488648F8-698C-45B0-B6B9-9A5615635C0C}|Application\\Application.csproj|solutionrelative:application\\judging\\dtos\\judgeresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488648F8-698C-45B0-B6B9-9A5615635C0C}|Application\\Application.csproj|c:\\users\\ahmed\\onedrive\\desktop\\cp platform\\backend\\application\\submissions\\specifications\\getsubmissionspec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488648F8-698C-45B0-B6B9-9A5615635C0C}|Application\\Application.csproj|solutionrelative:application\\submissions\\specifications\\getsubmissionspec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488648F8-698C-45B0-B6B9-9A5615635C0C}|Application\\Application.csproj|c:\\users\\ahmed\\onedrive\\desktop\\cp platform\\backend\\application\\submissions\\queries\\getsubmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488648F8-698C-45B0-B6B9-9A5615635C0C}|Application\\Application.csproj|solutionrelative:application\\submissions\\queries\\getsubmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488648F8-698C-45B0-B6B9-9A5615635C0C}|Application\\Application.csproj|c:\\users\\ahmed\\onedrive\\desktop\\cp platform\\backend\\application\\submissions\\queries\\submissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488648F8-698C-45B0-B6B9-9A5615635C0C}|Application\\Application.csproj|solutionrelative:application\\submissions\\queries\\submissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{353AED4D-F089-45C6-869D-8452B085AF61}|Infrastructure\\Infrastructure.csproj|c:\\users\\ahmed\\onedrive\\desktop\\cp platform\\backend\\infrastructure\\infradependancyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{353AED4D-F089-45C6-869D-8452B085AF61}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infradependancyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06EF1FC1-D848-41AC-BF5D-F517FA173A98}|Api\\Api.csproj|c:\\users\\ahmed\\onedrive\\desktop\\cp platform\\backend\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{06EF1FC1-D848-41AC-BF5D-F517FA173A98}|Api\\Api.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{353AED4D-F089-45C6-869D-8452B085AF61}|Infrastructure\\Infrastructure.csproj|c:\\users\\ahmed\\onedrive\\desktop\\cp platform\\backend\\infrastructure\\services\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{353AED4D-F089-45C6-869D-8452B085AF61}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{353AED4D-F089-45C6-869D-8452B085AF61}|Infrastructure\\Infrastructure.csproj|c:\\users\\ahmed\\onedrive\\desktop\\cp platform\\backend\\infrastructure\\services\\judge0\\judge0response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{353AED4D-F089-45C6-869D-8452B085AF61}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\judge0\\judge0response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488648F8-698C-45B0-B6B9-9A5615635C0C}|Application\\Application.csproj|c:\\users\\ahmed\\onedrive\\desktop\\cp platform\\backend\\application\\judging\\interfaces\\ijudgeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488648F8-698C-45B0-B6B9-9A5615635C0C}|Application\\Application.csproj|solutionrelative:application\\judging\\interfaces\\ijudgeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488648F8-698C-45B0-B6B9-9A5615635C0C}|Application\\Application.csproj|c:\\users\\ahmed\\onedrive\\desktop\\cp platform\\backend\\application\\judging\\dtos\\judge0languages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488648F8-698C-45B0-B6B9-9A5615635C0C}|Application\\Application.csproj|solutionrelative:application\\judging\\dtos\\judge0languages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE411A7D-1906-43B7-93CF-C5DD6FA68059}|Domain\\Domain.csproj|c:\\users\\ahmed\\onedrive\\desktop\\cp platform\\backend\\domain\\enums\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE411A7D-1906-43B7-93CF-C5DD6FA68059}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{488648F8-698C-45B0-B6B9-9A5615635C0C}|Application\\Application.csproj|c:\\users\\ahmed\\onedrive\\desktop\\cp platform\\backend\\application\\submissions\\commands\\createsubmission\\createsubmissiondtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -147,14 +207,6 @@
       "RelativeMoniker": "D:0:0:{CE411A7D-1906-43B7-93CF-C5DD6FA68059}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\submission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE411A7D-1906-43B7-93CF-C5DD6FA68059}|Domain\\Domain.csproj|c:\\users\\ahmed\\onedrive\\desktop\\cp platform\\backend\\domain\\enums\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE411A7D-1906-43B7-93CF-C5DD6FA68059}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE411A7D-1906-43B7-93CF-C5DD6FA68059}|Domain\\Domain.csproj|c:\\users\\ahmed\\onedrive\\desktop\\cp platform\\backend\\domain\\enums\\verdict.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE411A7D-1906-43B7-93CF-C5DD6FA68059}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\verdict.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CE411A7D-1906-43B7-93CF-C5DD6FA68059}|Domain\\Domain.csproj|c:\\users\\ahmed\\onedrive\\desktop\\cp platform\\backend\\domain\\enums\\problemdifficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE411A7D-1906-43B7-93CF-C5DD6FA68059}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\problemdifficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -222,7 +274,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 449,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -246,46 +298,202 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "JudgeWorkerService.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Infrastructure\\Services\\Judge0\\JudgeWorker\\JudgeWorkerService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\Judge0\\JudgeWorker\\JudgeWorkerService.cs",
+              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Infrastructure\\Services\\Judge0\\JudgeWorker\\JudgeWorkerService.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\Judge0\\JudgeWorker\\JudgeWorkerService.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAiwDAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T06:36:43.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InfraDependancyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Infrastructure\\InfraDependancyInjection.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\InfraDependancyInjection.cs",
+              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Infrastructure\\InfraDependancyInjection.cs",
+              "RelativeToolTip": "Infrastructure\\InfraDependancyInjection.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAA4wDUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T06:34:14.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Api\\appsettings.json",
+              "RelativeToolTip": "Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-12T06:05:58.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "SubmissionController.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Api\\Controllers\\SubmissionController.cs",
               "RelativeDocumentMoniker": "Api\\Controllers\\SubmissionController.cs",
               "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Api\\Controllers\\SubmissionController.cs",
               "RelativeToolTip": "Api\\Controllers\\SubmissionController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAxwBgAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwB4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-10T06:55:30.491Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateSubmissionDtoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Submissions\\Commands\\CreateSubmission\\CreateSubmissionDtoValidator.cs",
-              "RelativeDocumentMoniker": "Application\\Submissions\\Commands\\CreateSubmission\\CreateSubmissionDtoValidator.cs",
-              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Submissions\\Commands\\CreateSubmission\\CreateSubmissionDtoValidator.cs",
-              "RelativeToolTip": "Application\\Submissions\\Commands\\CreateSubmission\\CreateSubmissionDtoValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "JudgeResult.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Judging\\Dtos\\JudgeResult.cs",
+              "RelativeDocumentMoniker": "Application\\Judging\\Dtos\\JudgeResult.cs",
+              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Judging\\Dtos\\JudgeResult.cs",
+              "RelativeToolTip": "Application\\Judging\\Dtos\\JudgeResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA1wAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T06:53:47.337Z",
+              "WhenOpened": "2026-11-12T05:23:30.747Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "SubmissionErrors.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Comman\\Errors\\SubmissionErrors.cs",
-              "RelativeDocumentMoniker": "Application\\Comman\\Errors\\SubmissionErrors.cs",
-              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Comman\\Errors\\SubmissionErrors.cs",
-              "RelativeToolTip": "Application\\Comman\\Errors\\SubmissionErrors.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Title": "Verdict.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Domain\\Enums\\Verdict.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\Verdict.cs",
+              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Domain\\Enums\\Verdict.cs",
+              "RelativeToolTip": "Domain\\Enums\\Verdict.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA1wAgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T06:51:45.736Z",
+              "WhenOpened": "2026-11-10T00:46:30.511Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "JudgeRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Judging\\Dtos\\JudgeRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Judging\\Dtos\\JudgeRequest.cs",
+              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Judging\\Dtos\\JudgeRequest.cs",
+              "RelativeToolTip": "Application\\Judging\\Dtos\\JudgeRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA1wAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T05:41:10.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Judge0Client.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Infrastructure\\Services\\Judge0\\Judge0Client.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\Judge0\\Judge0Client.cs",
+              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Infrastructure\\Services\\Judge0\\Judge0Client.cs*",
+              "RelativeToolTip": "Infrastructure\\Services\\Judge0\\Judge0Client.cs*",
+              "ViewState": "AgIAABMAAAAAAAAAAAAuwB8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T05:42:55.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Infrastructure\\Services\\Auth\\AuthService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\Auth\\AuthService.cs",
+              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Infrastructure\\Services\\Auth\\AuthService.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\Auth\\AuthService.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAA2wG8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T06:48:25.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetSubmission.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Submissions\\Queries\\GetSubmission.cs",
+              "RelativeDocumentMoniker": "Application\\Submissions\\Queries\\GetSubmission.cs",
+              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Submissions\\Queries\\GetSubmission.cs",
+              "RelativeToolTip": "Application\\Submissions\\Queries\\GetSubmission.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T07:24:44.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SubmissionDto.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Submissions\\Queries\\SubmissionDto.cs",
+              "RelativeDocumentMoniker": "Application\\Submissions\\Queries\\SubmissionDto.cs",
+              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Submissions\\Queries\\SubmissionDto.cs",
+              "RelativeToolTip": "Application\\Submissions\\Queries\\SubmissionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T07:25:33.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetSubmissionSpec.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Submissions\\Specifications\\GetSubmissionSpec.cs",
+              "RelativeDocumentMoniker": "Application\\Submissions\\Specifications\\GetSubmissionSpec.cs",
+              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Submissions\\Specifications\\GetSubmissionSpec.cs",
+              "RelativeToolTip": "Application\\Submissions\\Specifications\\GetSubmissionSpec.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T07:28:03.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Judge0Response.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Infrastructure\\Services\\Judge0\\Judge0Response.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\Judge0\\Judge0Response.cs",
+              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Infrastructure\\Services\\Judge0\\Judge0Response.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\Judge0\\Judge0Response.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA3wBAAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T06:31:15.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IJudgeClient.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Judging\\Interfaces\\IJudgeClient.cs",
+              "RelativeDocumentMoniker": "Application\\Judging\\Interfaces\\IJudgeClient.cs",
+              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Judging\\Interfaces\\IJudgeClient.cs",
+              "RelativeToolTip": "Application\\Judging\\Interfaces\\IJudgeClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA1wAsAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T05:39:49.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Judge0Languages.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Judging\\Dtos\\Judge0Languages.cs",
+              "RelativeDocumentMoniker": "Application\\Judging\\Dtos\\Judge0Languages.cs",
+              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Judging\\Dtos\\Judge0Languages.cs",
+              "RelativeToolTip": "Application\\Judging\\Dtos\\Judge0Languages.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA3wA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T06:07:29.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "CreateSubmissionDto.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Submissions\\Commands\\CreateSubmission\\CreateSubmissionDto.cs",
               "RelativeDocumentMoniker": "Application\\Submissions\\Commands\\CreateSubmission\\CreateSubmissionDto.cs",
@@ -293,12 +501,23 @@
               "RelativeToolTip": "Application\\Submissions\\Commands\\CreateSubmission\\CreateSubmissionDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T06:48:56.634Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T06:48:56.634Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 18,
+              "Title": "SubmissionErrors.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Comman\\Errors\\SubmissionErrors.cs",
+              "RelativeDocumentMoniker": "Application\\Comman\\Errors\\SubmissionErrors.cs",
+              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Comman\\Errors\\SubmissionErrors.cs",
+              "RelativeToolTip": "Application\\Comman\\Errors\\SubmissionErrors.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T06:51:45.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "CreateSubmission.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Submissions\\Commands\\CreateSubmission\\CreateSubmission.cs",
               "RelativeDocumentMoniker": "Application\\Submissions\\Commands\\CreateSubmission\\CreateSubmission.cs",
@@ -306,12 +525,36 @@
               "RelativeToolTip": "Application\\Submissions\\Commands\\CreateSubmission\\CreateSubmission.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAA8wCoAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T06:48:38.292Z",
+              "WhenOpened": "2026-11-10T06:48:38.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Language.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Domain\\Enums\\Language.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\Language.cs",
+              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Domain\\Enums\\Language.cs",
+              "RelativeToolTip": "Domain\\Enums\\Language.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T00:47:58.131Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 16,
+              "Title": "CreateSubmissionDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Submissions\\Commands\\CreateSubmission\\CreateSubmissionDtoValidator.cs",
+              "RelativeDocumentMoniker": "Application\\Submissions\\Commands\\CreateSubmission\\CreateSubmissionDtoValidator.cs",
+              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Submissions\\Commands\\CreateSubmission\\CreateSubmissionDtoValidator.cs",
+              "RelativeToolTip": "Application\\Submissions\\Commands\\CreateSubmission\\CreateSubmissionDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T06:53:47.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "ProblemConfig.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Infrastructure\\Data\\EntitiesConfigurations\\ProblemConfig.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\EntitiesConfigurations\\ProblemConfig.cs",
@@ -319,12 +562,11 @@
               "RelativeToolTip": "Infrastructure\\Data\\EntitiesConfigurations\\ProblemConfig.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAA9wBIAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T06:35:21.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T06:35:21.154Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 22,
               "Title": "GetProblemByTitleSpec.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Problems\\Commands\\Specifications\\GetProblemByTitleSpec.cs",
               "RelativeDocumentMoniker": "Application\\Problems\\Commands\\Specifications\\GetProblemByTitleSpec.cs",
@@ -332,12 +574,11 @@
               "RelativeToolTip": "Application\\Problems\\Commands\\Specifications\\GetProblemByTitleSpec.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAawBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T06:24:18.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T06:24:18.033Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 26,
               "Title": "CreateProblemDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Problems\\Commands\\CreateProblem\\CreateProblemDtoValidator.cs",
               "RelativeDocumentMoniker": "Application\\Problems\\Commands\\CreateProblem\\CreateProblemDtoValidator.cs",
@@ -345,12 +586,11 @@
               "RelativeToolTip": "Application\\Problems\\Commands\\CreateProblem\\CreateProblemDtoValidator.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAAAB8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T05:41:41.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T05:41:41.817Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 24,
               "Title": "ProblemErrors.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Comman\\Errors\\ProblemErrors.cs",
               "RelativeDocumentMoniker": "Application\\Comman\\Errors\\ProblemErrors.cs",
@@ -358,12 +598,11 @@
               "RelativeToolTip": "Application\\Comman\\Errors\\ProblemErrors.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAA1wA8AAABzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T05:38:21.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T05:38:21.603Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 29,
               "Title": "CreateProblemDto.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Problems\\Dtos\\CreateProblemDto.cs",
               "RelativeDocumentMoniker": "Application\\Problems\\Dtos\\CreateProblemDto.cs",
@@ -371,12 +610,11 @@
               "RelativeToolTip": "Application\\Problems\\Dtos\\CreateProblemDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T05:33:35.659Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T05:33:35.659Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 30,
               "Title": "CreateTestCaseDto.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Problems\\Dtos\\CreateTestCaseDto.cs",
               "RelativeDocumentMoniker": "Application\\Problems\\Dtos\\CreateTestCaseDto.cs",
@@ -384,12 +622,11 @@
               "RelativeToolTip": "Application\\Problems\\Dtos\\CreateTestCaseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T05:33:35.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T05:33:35.411Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 21,
               "Title": "CreateProblem.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Problems\\Commands\\CreateProblem\\CreateProblem.cs",
               "RelativeDocumentMoniker": "Application\\Problems\\Commands\\CreateProblem\\CreateProblem.cs",
@@ -397,12 +634,11 @@
               "RelativeToolTip": "Application\\Problems\\Commands\\CreateProblem\\CreateProblem.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAgwB0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T05:32:25.846Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T05:32:25.846Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 31,
               "Title": "PlanController.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Api\\Controllers\\PlanController.cs",
               "RelativeDocumentMoniker": "Api\\Controllers\\PlanController.cs",
@@ -410,12 +646,11 @@
               "RelativeToolTip": "Api\\Controllers\\PlanController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T05:23:20.376Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T05:23:20.376Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 23,
               "Title": "TopicErrors.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Comman\\Errors\\TopicErrors.cs",
               "RelativeDocumentMoniker": "Application\\Comman\\Errors\\TopicErrors.cs",
@@ -423,12 +658,11 @@
               "RelativeToolTip": "Application\\Comman\\Errors\\TopicErrors.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T13:49:41.912Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-09T13:49:41.912Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 25,
               "Title": "PlanErrors.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Comman\\Errors\\PlanErrors.cs",
               "RelativeDocumentMoniker": "Application\\Comman\\Errors\\PlanErrors.cs",
@@ -436,12 +670,11 @@
               "RelativeToolTip": "Application\\Comman\\Errors\\PlanErrors.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAACbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T04:44:14.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T04:44:14.177Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 27,
               "Title": "ProblemController.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Api\\Controllers\\ProblemController.cs",
               "RelativeDocumentMoniker": "Api\\Controllers\\ProblemController.cs",
@@ -449,12 +682,11 @@
               "RelativeToolTip": "Api\\Controllers\\ProblemController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T05:44:21.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T05:44:21.435Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 33,
               "Title": "CreatePlanDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Plans\\Commands\\CreatePlan\\CreatePlanDtoValidator.cs",
               "RelativeDocumentMoniker": "Application\\Plans\\Commands\\CreatePlan\\CreatePlanDtoValidator.cs",
@@ -462,12 +694,11 @@
               "RelativeToolTip": "Application\\Plans\\Commands\\CreatePlan\\CreatePlanDtoValidator.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAwwBYAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T05:17:23.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T05:17:23.406Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 28,
               "Title": "ProblemTestCase.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Domain\\Entities\\ProblemTestCase.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\ProblemTestCase.cs",
@@ -475,12 +706,11 @@
               "RelativeToolTip": "Domain\\Entities\\ProblemTestCase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAA1wAgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T00:40:14.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T00:40:14.561Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 36,
               "Title": "ProblemsByIdsSpec.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Plans\\Specifications\\ProblemsByIdsSpec.cs",
               "RelativeDocumentMoniker": "Application\\Plans\\Specifications\\ProblemsByIdsSpec.cs",
@@ -488,12 +718,11 @@
               "RelativeToolTip": "Application\\Plans\\Specifications\\ProblemsByIdsSpec.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T04:52:02.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T04:52:02.555Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 37,
               "Title": "TopicsByIdSpec.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Plans\\Specifications\\TopicsByIdSpec.cs",
               "RelativeDocumentMoniker": "Application\\Plans\\Specifications\\TopicsByIdSpec.cs",
@@ -501,12 +730,11 @@
               "RelativeToolTip": "Application\\Plans\\Specifications\\TopicsByIdSpec.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T04:50:56.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T04:50:56.861Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 38,
               "Title": "PlanByLevelSpec.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Plans\\Specifications\\PlanByLevelSpec.cs",
               "RelativeDocumentMoniker": "Application\\Plans\\Specifications\\PlanByLevelSpec.cs",
@@ -514,12 +742,11 @@
               "RelativeToolTip": "Application\\Plans\\Specifications\\PlanByLevelSpec.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T04:43:20.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T04:43:20.643Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 39,
               "Title": "CreatePlanDto.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Plans\\Dtos\\CreatePlanDto.cs",
               "RelativeDocumentMoniker": "Application\\Plans\\Dtos\\CreatePlanDto.cs",
@@ -527,12 +754,11 @@
               "RelativeToolTip": "Application\\Plans\\Dtos\\CreatePlanDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T04:30:28.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T04:30:28.784Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 32,
               "Title": "CreatePlan.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Plans\\Commands\\CreatePlan\\CreatePlan.cs",
               "RelativeDocumentMoniker": "Application\\Plans\\Commands\\CreatePlan\\CreatePlan.cs",
@@ -540,12 +766,11 @@
               "RelativeToolTip": "Application\\Plans\\Commands\\CreatePlan\\CreatePlan.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAA+wC8AAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T04:29:17.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T04:29:17.133Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 40,
               "Title": "20261110042232_Addplan-user-Relationship.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Infrastructure\\Migrations\\20261110042232_Addplan-user-Relationship.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20261110042232_Addplan-user-Relationship.cs",
@@ -553,12 +778,11 @@
               "RelativeToolTip": "Infrastructure\\Migrations\\20261110042232_Addplan-user-Relationship.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T04:22:37.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T04:22:37.15Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 35,
               "Title": "Plan.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Domain\\Entities\\Plan.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Plan.cs",
@@ -566,12 +790,11 @@
               "RelativeToolTip": "Domain\\Entities\\Plan.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAA1wBEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T00:13:50.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T00:13:50.866Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 34,
               "Title": "Topic.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Domain\\Entities\\Topic.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Topic.cs",
@@ -579,12 +802,11 @@
               "RelativeToolTip": "Domain\\Entities\\Topic.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAA1wAgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T01:21:05.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T01:21:05.957Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 41,
               "Title": "ApplicationUserConfig.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Infrastructure\\Data\\EntitiesConfigurations\\ApplicationUserConfig.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\EntitiesConfigurations\\ApplicationUserConfig.cs",
@@ -592,12 +814,11 @@
               "RelativeToolTip": "Infrastructure\\Data\\EntitiesConfigurations\\ApplicationUserConfig.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T04:20:39.267Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T04:20:39.267Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 44,
               "Title": "PlanProblem.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Domain\\Entities\\PlanProblem.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\PlanProblem.cs",
@@ -605,12 +826,11 @@
               "RelativeToolTip": "Domain\\Entities\\PlanProblem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T04:02:47.623Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T04:02:47.623Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 46,
               "Title": "TopicConfig.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Infrastructure\\Data\\EntitiesConfigurations\\TopicConfig.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\EntitiesConfigurations\\TopicConfig.cs",
@@ -618,12 +838,11 @@
               "RelativeToolTip": "Infrastructure\\Data\\EntitiesConfigurations\\TopicConfig.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAIA7wAsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T01:22:04.377Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T01:22:04.377Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 43,
               "Title": "Problem.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Domain\\Entities\\Problem.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Problem.cs",
@@ -631,12 +850,11 @@
               "RelativeToolTip": "Domain\\Entities\\Problem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T00:19:17.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T00:19:17.095Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 47,
               "Title": "SubmissionConfig.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Infrastructure\\Data\\EntitiesConfigurations\\SubmissionConfig.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\EntitiesConfigurations\\SubmissionConfig.cs",
@@ -644,12 +862,11 @@
               "RelativeToolTip": "Infrastructure\\Data\\EntitiesConfigurations\\SubmissionConfig.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAIA7wBMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T01:34:30.376Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T01:34:30.376Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 49,
               "Title": "PlanTopic.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Domain\\Entities\\PlanTopic.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\PlanTopic.cs",
@@ -657,12 +874,11 @@
               "RelativeToolTip": "Domain\\Entities\\PlanTopic.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAA1wAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T01:03:35.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T01:03:35.089Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 42,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Domain\\Entities\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\ApplicationUser.cs",
@@ -670,12 +886,11 @@
               "RelativeToolTip": "Domain\\Entities\\ApplicationUser.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T01:35:56.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T01:35:56.586Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 45,
               "Title": "PlanLevel.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Domain\\Enums\\PlanLevel.cs",
               "RelativeDocumentMoniker": "Domain\\Enums\\PlanLevel.cs",
@@ -683,12 +898,11 @@
               "RelativeToolTip": "Domain\\Enums\\PlanLevel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAA1wAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T00:17:13.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T00:17:13.294Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 50,
               "Title": "Submission.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Domain\\Entities\\Submission.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Submission.cs",
@@ -696,12 +910,11 @@
               "RelativeToolTip": "Domain\\Entities\\Submission.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAABHwAsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T00:43:43.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T00:43:43.498Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 48,
               "Title": "PlanConfig.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Infrastructure\\Data\\EntitiesConfigurations\\PlanConfig.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\EntitiesConfigurations\\PlanConfig.cs",
@@ -709,38 +922,11 @@
               "RelativeToolTip": "Infrastructure\\Data\\EntitiesConfigurations\\PlanConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T01:07:04.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T01:07:04.333Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Language.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Domain\\Enums\\Language.cs",
-              "RelativeDocumentMoniker": "Domain\\Enums\\Language.cs",
-              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Domain\\Enums\\Language.cs",
-              "RelativeToolTip": "Domain\\Enums\\Language.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T00:47:58.131Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "Verdict.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Domain\\Enums\\Verdict.cs",
-              "RelativeDocumentMoniker": "Domain\\Enums\\Verdict.cs",
-              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Domain\\Enums\\Verdict.cs",
-              "RelativeToolTip": "Domain\\Enums\\Verdict.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T00:46:30.511Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 51,
               "Title": "ProblemDifficulty.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Domain\\Enums\\ProblemDifficulty.cs",
               "RelativeDocumentMoniker": "Domain\\Enums\\ProblemDifficulty.cs",
@@ -748,12 +934,11 @@
               "RelativeToolTip": "Domain\\Enums\\ProblemDifficulty.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T00:25:03.055Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T00:25:03.055Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 53,
               "Title": "ClaimsPrincipalExtensions.cs.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Api\\Extensions\\ClaimsPrincipalExtensions.cs.cs",
               "RelativeDocumentMoniker": "Api\\Extensions\\ClaimsPrincipalExtensions.cs.cs",
@@ -761,12 +946,11 @@
               "RelativeToolTip": "Api\\Extensions\\ClaimsPrincipalExtensions.cs.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T14:03:09.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-09T14:03:09.474Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 56,
               "Title": "TopicController.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Api\\Controllers\\TopicController.cs",
               "RelativeDocumentMoniker": "Api\\Controllers\\TopicController.cs",
@@ -774,12 +958,11 @@
               "RelativeToolTip": "Api\\Controllers\\TopicController.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAABAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T13:52:43.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-09T13:52:43.771Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 52,
               "Title": "VoteController.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Api\\Controllers\\VoteController.cs",
               "RelativeDocumentMoniker": "Api\\Controllers\\VoteController.cs",
@@ -787,12 +970,11 @@
               "RelativeToolTip": "Api\\Controllers\\VoteController.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAADwvxYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T13:51:05.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-09T13:51:05.955Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 58,
               "Title": "VoteErrors.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Comman\\Errors\\VoteErrors.cs",
               "RelativeDocumentMoniker": "Application\\Comman\\Errors\\VoteErrors.cs",
@@ -800,12 +982,11 @@
               "RelativeToolTip": "Application\\Comman\\Errors\\VoteErrors.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T13:49:23.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-09T13:49:23.772Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 54,
               "Title": "VoteDto.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Votes\\Dtos\\VoteDto.cs",
               "RelativeDocumentMoniker": "Application\\Votes\\Dtos\\VoteDto.cs",
@@ -813,12 +994,11 @@
               "RelativeToolTip": "Application\\Votes\\Dtos\\VoteDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAA1wAgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T13:45:13.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-09T13:45:13.031Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 55,
               "Title": "CreateVote.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Votes\\Commands\\CreateVote.cs",
               "RelativeDocumentMoniker": "Application\\Votes\\Commands\\CreateVote.cs",
@@ -826,12 +1006,11 @@
               "RelativeToolTip": "Application\\Votes\\Commands\\CreateVote.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAA+wBMAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T13:43:48.853Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-09T13:43:48.853Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 59,
               "Title": "VoteAnswer.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Domain\\Entities\\VoteAnswer.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\VoteAnswer.cs",
@@ -839,12 +1018,11 @@
               "RelativeToolTip": "Domain\\Entities\\VoteAnswer.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T13:36:44.823Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-09T13:36:44.823Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 65,
               "Title": "VoteDto.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Vote\\Dtos\\VoteDto.cs",
               "RelativeDocumentMoniker": "Application\\Vote\\Dtos\\VoteDto.cs",
@@ -856,7 +1034,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 61,
               "Title": "TestSpecification.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Tests\\Specification\\TestSpecification.cs",
               "RelativeDocumentMoniker": "Application\\Tests\\Specification\\TestSpecification.cs",
@@ -868,7 +1046,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 57,
               "Title": "TestController.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Api\\Controllers\\TestController.cs",
               "RelativeDocumentMoniker": "Api\\Controllers\\TestController.cs",
@@ -876,12 +1054,11 @@
               "RelativeToolTip": "Api\\Controllers\\TestController.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T07:35:35.422Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-09T07:35:35.422Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 64,
               "Title": "VoteAnswerDto.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Vote\\Dtos\\VoteAnswerDto.cs",
               "RelativeDocumentMoniker": "Application\\Vote\\Dtos\\VoteAnswerDto.cs",
@@ -893,7 +1070,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 60,
               "Title": "Vote.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Domain\\Entities\\Vote.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Vote.cs",
@@ -905,7 +1082,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 63,
               "Title": "CreateTestDto.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Tests\\Dtos\\CreateTestDto.cs",
               "RelativeDocumentMoniker": "Application\\Tests\\Dtos\\CreateTestDto.cs",
@@ -917,7 +1094,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 62,
               "Title": "GetTest.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Tests\\Queries\\GetTest\\GetTest.cs",
               "RelativeDocumentMoniker": "Application\\Tests\\Queries\\GetTest\\GetTest.cs",

@@ -1,6 +1,7 @@
 ﻿using Api.Abstractions;
 using Api.Extensions;
 using Application.Submissions.Commands.CreateSubmission;
+using Application.Submissions.Queries;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -24,6 +25,15 @@ namespace Api.Controllers
             return res.IsSuccess
                 ? Accepted(new { submissionId = res.Value })
                 : res.ToProblem();
+        }
+
+        [Authorize]
+        [HttpGet("get-submission/{id}")]
+        public async Task<IActionResult> Get(int id, CancellationToken ct)
+        {
+            var userId = User.GetUserId();
+            var res = await _mediator.Send(new GetSubmissionQuery(id, userId!), ct);
+            return res.IsSuccess ? Ok(res.Value) : res.ToProblem();
         }
     }
 }
