@@ -26,13 +26,10 @@ namespace Infrastructure.Services.Judge0
                 cpu_time_limit = request.TimeLimitMs / 1000.0,
                 memory_limit = request.MemoryLimitMb * 1024   // Judge0 uses KB
             };
-            var res = await _http.PostAsJsonAsync("/submissions?base64_encoded=false&wait=true", body, ct);
-            if (!res.IsSuccessStatusCode)
-            {
-                var error = await res.Content.ReadAsStringAsync(ct);
-                throw new InvalidOperationException(
-                    $"Judge0 returned {(int)res.StatusCode}: {error}");
-            }
+            var content = new StringContent(
+               JsonSerializer.Serialize( body), Encoding.UTF8, "application/json");
+            var res = await _http.PostAsync("submissions?base64_encoded=false&wait=true", content, ct);
+
             //res.EnsureSuccessStatusCode();
 
             var j = await res.Content.ReadFromJsonAsync<Judge0Response>(cancellationToken: ct)

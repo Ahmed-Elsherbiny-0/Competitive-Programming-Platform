@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{353AED4D-F089-45C6-869D-8452B085AF61}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\judge0\\judgeworker\\judgeworkerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{488648F8-698C-45B0-B6B9-9A5615635C0C}|Application\\Application.csproj|c:\\users\\ahmed\\onedrive\\desktop\\cp platform\\backend\\application\\judging\\dtos\\judge0languages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488648F8-698C-45B0-B6B9-9A5615635C0C}|Application\\Application.csproj|solutionrelative:application\\judging\\dtos\\judge0languages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{488648F8-698C-45B0-B6B9-9A5615635C0C}|Application\\Application.csproj|c:\\users\\ahmed\\onedrive\\desktop\\cp platform\\backend\\application\\judging\\dtos\\judgerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{488648F8-698C-45B0-B6B9-9A5615635C0C}|Application\\Application.csproj|solutionrelative:application\\judging\\dtos\\judgerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -57,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{488648F8-698C-45B0-B6B9-9A5615635C0C}|Application\\Application.csproj|c:\\users\\ahmed\\onedrive\\desktop\\cp platform\\backend\\application\\judging\\interfaces\\ijudgeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{488648F8-698C-45B0-B6B9-9A5615635C0C}|Application\\Application.csproj|solutionrelative:application\\judging\\interfaces\\ijudgeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{488648F8-698C-45B0-B6B9-9A5615635C0C}|Application\\Application.csproj|c:\\users\\ahmed\\onedrive\\desktop\\cp platform\\backend\\application\\judging\\dtos\\judge0languages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{488648F8-698C-45B0-B6B9-9A5615635C0C}|Application\\Application.csproj|solutionrelative:application\\judging\\dtos\\judge0languages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CE411A7D-1906-43B7-93CF-C5DD6FA68059}|Domain\\Domain.csproj|c:\\users\\ahmed\\onedrive\\desktop\\cp platform\\backend\\domain\\enums\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -274,7 +274,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 449,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -304,27 +304,14 @@
               "RelativeDocumentMoniker": "Infrastructure\\Services\\Judge0\\JudgeWorker\\JudgeWorkerService.cs",
               "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Infrastructure\\Services\\Judge0\\JudgeWorker\\JudgeWorkerService.cs",
               "RelativeToolTip": "Infrastructure\\Services\\Judge0\\JudgeWorker\\JudgeWorkerService.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAiwDAAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAIA6wEcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-12T06:36:43.1Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "InfraDependancyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Infrastructure\\InfraDependancyInjection.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\InfraDependancyInjection.cs",
-              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Infrastructure\\InfraDependancyInjection.cs",
-              "RelativeToolTip": "Infrastructure\\InfraDependancyInjection.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAA4wDUAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-12T06:34:14.851Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Api\\appsettings.json",
               "RelativeDocumentMoniker": "Api\\appsettings.json",
@@ -337,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "SubmissionController.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Api\\Controllers\\SubmissionController.cs",
               "RelativeDocumentMoniker": "Api\\Controllers\\SubmissionController.cs",
@@ -350,7 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "JudgeResult.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Judging\\Dtos\\JudgeResult.cs",
               "RelativeDocumentMoniker": "Application\\Judging\\Dtos\\JudgeResult.cs",
@@ -363,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Verdict.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Domain\\Enums\\Verdict.cs",
               "RelativeDocumentMoniker": "Domain\\Enums\\Verdict.cs",
@@ -376,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "JudgeRequest.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Judging\\Dtos\\JudgeRequest.cs",
               "RelativeDocumentMoniker": "Application\\Judging\\Dtos\\JudgeRequest.cs",
@@ -395,14 +382,40 @@
               "RelativeDocumentMoniker": "Infrastructure\\Services\\Judge0\\Judge0Client.cs",
               "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Infrastructure\\Services\\Judge0\\Judge0Client.cs*",
               "RelativeToolTip": "Infrastructure\\Services\\Judge0\\Judge0Client.cs*",
-              "ViewState": "AgIAABMAAAAAAAAAAIA5wCEAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABwAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-12T05:42:55.757Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
+              "Title": "Judge0Languages.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Judging\\Dtos\\Judge0Languages.cs",
+              "RelativeDocumentMoniker": "Application\\Judging\\Dtos\\Judge0Languages.cs",
+              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Judging\\Dtos\\Judge0Languages.cs",
+              "RelativeToolTip": "Application\\Judging\\Dtos\\Judge0Languages.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA3wA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T06:07:29.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InfraDependancyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Infrastructure\\InfraDependancyInjection.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\InfraDependancyInjection.cs",
+              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Infrastructure\\InfraDependancyInjection.cs",
+              "RelativeToolTip": "Infrastructure\\InfraDependancyInjection.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAA4wDUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T06:34:14.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Infrastructure\\Services\\Auth\\AuthService.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Services\\Auth\\AuthService.cs",
@@ -415,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "GetSubmission.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Submissions\\Queries\\GetSubmission.cs",
               "RelativeDocumentMoniker": "Application\\Submissions\\Queries\\GetSubmission.cs",
@@ -428,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "SubmissionDto.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Submissions\\Queries\\SubmissionDto.cs",
               "RelativeDocumentMoniker": "Application\\Submissions\\Queries\\SubmissionDto.cs",
@@ -441,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "GetSubmissionSpec.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Submissions\\Specifications\\GetSubmissionSpec.cs",
               "RelativeDocumentMoniker": "Application\\Submissions\\Specifications\\GetSubmissionSpec.cs",
@@ -454,7 +467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Judge0Response.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Infrastructure\\Services\\Judge0\\Judge0Response.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Services\\Judge0\\Judge0Response.cs",
@@ -467,7 +480,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "IJudgeClient.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Judging\\Interfaces\\IJudgeClient.cs",
               "RelativeDocumentMoniker": "Application\\Judging\\Interfaces\\IJudgeClient.cs",
@@ -476,19 +489,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAA1wAsAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-12T05:39:49.877Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Judge0Languages.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Judging\\Dtos\\Judge0Languages.cs",
-              "RelativeDocumentMoniker": "Application\\Judging\\Dtos\\Judge0Languages.cs",
-              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Cp Platform\\Backend\\Application\\Judging\\Dtos\\Judge0Languages.cs",
-              "RelativeToolTip": "Application\\Judging\\Dtos\\Judge0Languages.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAA3wA8AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-12T06:07:29.175Z",
               "EditorCaption": ""
             },
             {
